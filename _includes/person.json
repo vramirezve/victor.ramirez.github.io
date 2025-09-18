@@ -1,0 +1,12 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"Victor Ramirez",
+  "url":"{{ site.url }}{{ site.baseurl }}/",
+  "jobTitle":"Senior Consultant in Telecommunications",
+  "affiliation":{"@type":"Telecommunications","name":"IEEE"},
+  "email":"mailto:victor.ramirez@ieee.org",
+  "sameAs":["https://www.linkedin.com/in/victor-ramirez-vramirezve"]
+}
+</script>
