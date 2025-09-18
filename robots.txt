@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vramirezve.github.io/victor.ramirez.github.io/sitemap.xml
