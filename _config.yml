@@ -1,0 +1,17 @@
+title: "Victor Ramirez"
+description: "Telecommunication Engineer"
+url: "https://victor.ramirez.github.io"   # use your repo’s domain
+baseurl: ""
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+author:
+  name: "Victor Ramirez"
+  email: "victor.ramirez@ieee.org"
+  links:
+    - "https://www.linkedin.com/in/victor-ramirez-vramirezve/"
+
+
+chore(seo): enable jekyll-sitemap and jekyll-seo-tag, add site metadata
