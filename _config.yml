@@ -15,3 +15,5 @@ author:
 
 
 chore(seo): enable jekyll-sitemap and jekyll-seo-tag, add site metadata
+url: "https://vramirezve.github.io"     # your user domain
+baseurl: "/victor.ramirez.github.io"    # project repo path
