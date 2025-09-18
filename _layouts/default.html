@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}  {# jekyll-seo-tag outputs title, canonical, og/twitter, description #}
+
+    {%- comment -%}
+      Include Person JSON-LD on the homepage only.
+      Works for both user sites ("/") and project sites (site.baseurl).
+    {%- endcomment -%}
+    {% if page.url == "/" or page.url == site.baseurl or page.permalink == "/" %}
+      {% include person.json %}
+    {% endif %}
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>
